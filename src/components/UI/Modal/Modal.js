@@ -10,6 +10,7 @@ class Modal extends Component {
   }
 
   componentWillUpdate () {
+    console.log('this.props.show', this.props.show);
     console.log('[Modal] will update');
   }
 
